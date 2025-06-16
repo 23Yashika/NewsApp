@@ -82,7 +82,7 @@ const Navbar = ({ setArticles }) => {
                     </div>
 
                     {/* Theme toggle */}
-                    <button 
+                    {/* <button 
                         onClick={toggleTheme} 
                         className='relative p-3 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-600 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 group overflow-hidden'
                     >
@@ -90,7 +90,7 @@ const Navbar = ({ setArticles }) => {
                         <div className='relative z-10 text-gray-600 dark:text-gray-300 group-hover:text-yellow-600 dark:group-hover:text-blue-400 transition-colors duration-300'>
                             {theme === 'light' ? <FaMoon size={16} /> : <FaSun size={16} />}
                         </div>
-                    </button>
+                    </button> */}
 
                     {/* Mobile menu toggle */}
                     <button 
